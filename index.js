@@ -17,7 +17,7 @@ const getString = (value) => {
 	const result  = {
 		fisrtTwoLetters: value.substring(0,2),
 		fisrtThreeLetters: value.substring(0,3),
-		lastTwoLetters: value.substring(value.length-2,value.length), //value.length>2?value.substring(value.length-2,value.length): '',
+		lastTwoLetters: value.substring(value.length-2,value.length),
 		lastLetters: value.substring(value.length-1,value.length),
 	}
 	return result;
